@@ -1,2 +1,2 @@
 # pauloeduardods.github.io
-Meu portifolio pessoa (em construção)
+Meu portifolio pessoal (em construção)
