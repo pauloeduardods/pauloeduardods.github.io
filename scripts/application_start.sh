@@ -6,11 +6,9 @@ cd /home/ec2-user/pauloeduardods
 
 docker-compose up -d
 
-sleep 10
-
 echo "Checking if application is running"
 
-if [ "$( docker container inspect -f '{{.State.Status}}' pauloeduardods-front-end-1 )" == "running" ];
+sleep 20 && if [ "$( docker container inspect -f '{{.State.Status}}' pauloeduardods-front-end-1 )" == "running" ];
 then
   echo "Container is running"
   docker container prune -f
