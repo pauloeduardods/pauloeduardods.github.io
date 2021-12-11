@@ -1,3 +1,4 @@
+sleep 10
 if [ "$( docker container inspect -f '{{.State.Status}}' pauloeduardods-front-end-1 )" == "running" ];
 then
   echo "Container is running"
