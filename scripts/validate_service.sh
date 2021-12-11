@@ -11,6 +11,6 @@ else
     docker image tag pauloeduardods_front-end_old:latest pauloeduardods_front-end:latest
     docker rmi -f pauloeduardods_front-end_old:latest
     docker container rename pauloeduardods-front-end-old pauloeduardods-front-end-1
-    docker run -d -p 8080:80 pauloeduardods-front-end-1
+    docker run -d -p 8080:80 --name pauloeduardods-front-end-1 pauloeduardods_front-end-1:latest
     exit 1
 fi
