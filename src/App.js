@@ -1,13 +1,13 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 
 function App() {
   return (
-    <Routes>
-      <Route exact path="/" element={ <Home /> } />
-      <Route path="*" element={ <div>Not found</div> } />
-    </Routes>
+    <Switch>
+      <Route exact path="/" component={ Home } />
+      <Route component={ () => (<div>Not found</div>) } />
+    </Switch>
   );
 }
 
