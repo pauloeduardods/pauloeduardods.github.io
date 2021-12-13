@@ -22,7 +22,6 @@ if [ -d "$DIR" ]; then
   cp -rf ${DIR} ${BACKUP_FILE}
 
   echo "Backup created on: ${BACKUP_FILE}"
-fi
 else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
