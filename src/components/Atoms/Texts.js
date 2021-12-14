@@ -18,4 +18,8 @@ const TextDescription = tw.span`
   mt-1 text-sm text-gray-400
 `;
 
-export { TextWhite, BlackText, TextDescription };
+const AboutDescription = tw.p`
+  py-1 text-lg indent-3 subpixel-antialiased font-sans
+`;
+
+export { TextWhite, BlackText, TextDescription, AboutDescription };
