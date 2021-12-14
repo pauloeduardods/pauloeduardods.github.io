@@ -6,7 +6,7 @@ const PageTitle = tw.h1`
   md:text-2xl
   font-bold
   py-4
-  pl-4
+  pl-
   col-span-5
 `;
 

@@ -1,17 +1,21 @@
 import tw from 'tailwind-styled-components';
 
-const WhiteLinks = tw.span`
+const TextWhite = tw.span`
   text-base
   font-medium
   text-gray-200
   hover:text-white
 `;
 
-const BlackLinks = tw.span`
+const BlackText = tw.span`
   text-base
   font-medium
   text-gray-500
   hover:text-gray-900
 `;
 
-export { WhiteLinks, BlackLinks };
+const TextDescription = tw.span`
+  mt-1 text-sm text-gray-400
+`;
+
+export { TextWhite, BlackText, TextDescription };
