@@ -58,10 +58,9 @@ function HeaderNav() {
                 mt-3 px-2 w-screen max-w-md sm:px-0"
               >
                 <div
-                  className="rounded-lg shadow-lg ring-1 ring-white
-                  ring-opacity-10 overflow-hidden"
+                  className="rounded-lg shadow-md shadow-slate-700 ring-1 ring-white
+                  ring-opacity-5 overflow-hidden"
                 >
-                  {/* mudar o ring-opacity para 5 quando colocar o darkmode */}
                   <div
                     className="relative grid gap-6 bg-slate-800
                     px-5 py-6 sm:gap-8 sm:p-8"

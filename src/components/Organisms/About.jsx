@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AboutTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
 import { MoreButton } from '../Atoms/Buttons';
 import { About1stP, About2ndP, profilePhoto } from '../../data/aboutData';
 import '../../css/about.css';
+import AboutModal from '../Molecules/AboutModal';
 
 function About() {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <section id="about" className="bg-yellow-black-img py-14 h-fit">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -32,7 +34,10 @@ function About() {
               Quer saber mais?
             </h3>
             <div className="flex justify-center">
-              <MoreButton className="mb-6 lg:mb-0">
+              <MoreButton
+                className="mb-6 lg:mb-0"
+                onClick={ () => setModalOpen(!modalOpen) }
+              >
                 Clique aqui!
               </MoreButton>
             </div>
@@ -46,6 +51,7 @@ function About() {
           </div>
         </div>
       </div>
+      <AboutModal open={ modalOpen } setOpen={ setModalOpen } />
     </section>
   );
 }

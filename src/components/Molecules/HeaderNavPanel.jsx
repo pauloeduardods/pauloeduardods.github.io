@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Popover } from '@headlessui/react';
-import {
-  XIcon,
-} from '@heroicons/react/outline';
+import { XIcon } from '@heroicons/react/outline';
 
 import { TextWhite } from '../Atoms/Texts';
 import { HeaderIcons, ContactIcons } from '../Atoms/Icons';
@@ -16,10 +14,9 @@ import {
 function HeaderNavPanel() {
   return (
     <div
-      className="rounded-lg shadow-lg ring-1 ring-white ring-opacity-10
+      className="rounded-lg shadow-md shadow-slate-700 ring-1 ring-white ring-opacity-5
       bg-slate-800  divide-y-2 divide-slate-700"
     >
-      {/* mudar o ring-opacity para 5 quando colocar o darkmode */}
       <div className="pt-5 pb-6 px-5">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex">
