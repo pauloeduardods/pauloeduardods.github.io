@@ -17,4 +17,8 @@ const SectionTitle = tw.h2`
   mb-4
 `;
 
-export { PageTitle, SectionTitle };
+const AboutTitle = tw.span`
+  text-left font-mono text-3xl
+`;
+
+export { PageTitle, SectionTitle, AboutTitle };

@@ -1,9 +1,9 @@
 import tw from 'tailwind-styled-components';
 
-const ContactButton = tw.button`
+const MoreButton = tw.button`
   group
   relative
-  w-full
+  w-60
   flex
   justify-center
   py-2
@@ -25,4 +25,4 @@ const ContactButton = tw.button`
 const sla = tw.button`
 `;
 
-export { ContactButton, sla };
+export { MoreButton, sla };
