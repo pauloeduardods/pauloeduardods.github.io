@@ -262,7 +262,7 @@
     "react/jsx-max-depth": [
       "error",
       {
-        "max": 5
+        "max": 8
       }
     ],
     "react/jsx-no-useless-fragment": [

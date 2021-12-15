@@ -21,4 +21,9 @@ const AboutTitle = tw.span`
   text-left font-mono text-3xl
 `;
 
-export { PageTitle, SectionTitle, AboutTitle };
+const AboutModalTitle = tw.h1`
+  text-left font-mono text-2xl md:text-3xl underline decoration-double
+  decoration-1 mt-4 mb-1 ml-12
+`;
+
+export { PageTitle, SectionTitle, AboutTitle, AboutModalTitle };

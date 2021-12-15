@@ -22,4 +22,9 @@ const AboutDescription = tw.p`
   py-1 text-lg indent-3 subpixel-antialiased font-sans
 `;
 
-export { TextWhite, BlackText, TextDescription, AboutDescription };
+const AboutModalDescription = tw.p`
+  text-base md:text-lg py-1 indent-2 subpixel-antialiased font-sans
+`;
+// colocar a letra menor quando diminuir a tela
+
+export { TextWhite, BlackText, TextDescription, AboutDescription, AboutModalDescription };
