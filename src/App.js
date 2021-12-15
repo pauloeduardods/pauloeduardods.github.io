@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import ReactGa from 'react-ga';
+import Config from './Config';
 import Home from './pages/Home';
 
 function App() {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
-      ReactGa.initialize('UA-215409378-1');
+      ReactGa.initialize(Config.GOOGLE_ANALYTICS_ID);
       ReactGa.pageview(window.location.pathname + window.location.search);
     }
   }, []);
