@@ -5,6 +5,8 @@ import Home from './pages/Home';
 
 function App() {
   useEffect(() => {
+    console.log(process.env.NODE_ENV)
+    console.log(process.env.GOOGLE_ANALYTICS_ID)
     if (process.env.NODE_ENV === 'production') {
       ReactGa.initialize(process.env.GOOGLE_ANALYTICS_ID);
       ReactGa.pageview(window.location.pathname + window.location.search);
