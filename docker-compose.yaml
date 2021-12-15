@@ -4,5 +4,5 @@ services:
     build: .
     ports:
       - "8080:80"
-    env_file:
-      - prod.env
+    environment:
+      - GOOGLE_ANALYTICS_ID
