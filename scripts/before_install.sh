@@ -26,6 +26,3 @@ else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
 fi
-
-
-echo $GOOGLE_ANALYTICS_ID
