@@ -28,3 +28,4 @@ else
 fi
 
 
+echo $GOOGLE_ANALYTICS_ID
