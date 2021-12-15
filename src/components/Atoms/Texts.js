@@ -23,7 +23,7 @@ const AboutDescription = tw.p`
 `;
 
 const AboutModalDescription = tw.p`
-  py-1 text-lg indent-3 subpixel-antialiased font-sans
+  text-base md:text-lg py-1 indent-2 subpixel-antialiased font-sans
 `;
 // colocar a letra menor quando diminuir a tela
 
