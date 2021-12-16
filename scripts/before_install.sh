@@ -22,6 +22,14 @@ if [ -d "$DIR" ]; then
   cp -rf ${DIR} ${BACKUP_FILE}
 
   echo "Backup created on: ${BACKUP_FILE}"
+
+  echo "Removing the 4th oldest directory"
+
+  OLDEST=$(ls -t | tail -n +4)
+  rm -rf ${OLDEST}
+
+  echo "${OLDEST} removed"
+
 else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
