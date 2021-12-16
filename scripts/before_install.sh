@@ -16,20 +16,17 @@ if [ -d "$DIR" ]; then
     mkdir ${BAK_DIR}
   fi
 
+  echo "Removing the last backup"
+
+  cd ${BAK_DIR}
+  rm -rf pauloeduardods_*
+
   echo "Backuping ${DIR} to ${BAK_DIR}"
 
   BACKUP_FILE="${BAK_DIR}/pauloeduardods_$(date +%Y-%m-%d-%Hh%Mm)"
   cp -rf ${DIR} ${BACKUP_FILE}
 
   echo "Backup created on: ${BACKUP_FILE}"
-
-  echo "Removing the 4th oldest directory"
-
-  cd ${BAK_DIR}
-  OLDEST=$(ls -t | tail -n +4)
-  rm -rf ${OLDEST}
-
-  echo "${OLDEST} removed"
 
 else
   echo "Creating ${DIR} directory"
