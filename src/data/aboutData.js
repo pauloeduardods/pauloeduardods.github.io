@@ -14,8 +14,8 @@ const myTrajectory = [
   'Com 16 anos comprei meu primeiro Arduino, foi nessa época que conheci a programação, fiquei apaixonado naquilo e apesar de muita dificuldade nunca parei de aprender.',
   'Depois do meu 3º ano de ensino médio fui para a faculdade de Engenharia Química, onde tive contato com matérias de programação e aprendi o básico de C e C++.',
   'Com a pandemia e as aulas paradas comecei a estudar investimentos, conheci as criptomoedas e as APIs de corretoras de cripto, comecei a estudar e montar um BOT para fazer trade em cripto, além de um para postar o preço do Bitcoin a cada 30 minutos no Twitter. Nessa época aprendi Python, NodeJs e Mysql apenas procurando na internet.',
-  'Em 2020 decidi largar a faculdade e entrar no curso da Trybe, onde aprendi Git, HTML, CSS, ReactJS, Redux, RTL. Além das soft skills, metodologias ágeis, trabalhar em equipe e boas praticas na programação.',
-  'Ainda em 2020 consegui minha primeira oportunidade de emprego dentro da Trybe, onde entrei como Summer de Instrução e fiquei responsável por dar monitorias no bloco de Front-end para a turma 16.'
+  'Em 2021 decidi largar a faculdade e entrar no curso da Trybe, onde aprendi Git, HTML, CSS, ReactJS, Redux, RTL. Além das soft skills, metodologias ágeis, trabalhar em equipe e boas praticas na programação.',
+  'Ainda em 2021 consegui minha primeira oportunidade de emprego dentro da Trybe, onde entrei como Summer de Instrução e fiquei responsável por dar monitorias no bloco de Front-end para a turma 16.'
 ];
 
 const modalTexts = [
