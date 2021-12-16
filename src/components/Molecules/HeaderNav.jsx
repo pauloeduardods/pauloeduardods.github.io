@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import { Popover, Transition } from '@headlessui/react';
 import { TextWhite, TextDescription } from '../Atoms/Texts';
@@ -13,15 +12,15 @@ function classNames(...classes) {
 function HeaderNav() {
   return (
     <>
-      <Link to="#about">
+      <a href="#about">
         <TextWhite>Sobre</TextWhite>
-      </Link>
-      <Link to="#projects">
+      </a>
+      <a href="#projects">
         <TextWhite>Projetos</TextWhite>
-      </Link>
-      <Link to="#tech">
+      </a>
+      <a href="#tech">
         <TextWhite>Tecnologias</TextWhite>
-      </Link>
+      </a>
 
       <Popover className="relative">
         {({ open }) => (

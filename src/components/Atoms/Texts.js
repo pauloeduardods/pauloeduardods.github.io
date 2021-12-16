@@ -19,7 +19,7 @@ const TextDescription = tw.span`
 `;
 
 const AboutDescription = tw.p`
-  py-1 text-lg indent-3 subpixel-antialiased font-sans
+  py-1 text-base md:text-lg indent-3 subpixel-antialiased font-sans
 `;
 
 const AboutModalDescription = tw.p`
