@@ -25,6 +25,7 @@ if [ -d "$DIR" ]; then
 
   echo "Removing the 4th oldest directory"
 
+  cd ${BAK_DIR}
   OLDEST=$(ls -t | tail -n +4)
   rm -rf ${OLDEST}
 
