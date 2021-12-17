@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tab } from '@headlessui/react';
 import FadeIn from 'react-fade-in';
+import AsyncImage from '../../utils/AsyncImage';
 import techsList from '../../data/technologiesData';
 import { SectionTitle, TechTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
@@ -34,7 +35,7 @@ function Technologies() {
                   }
                   key={ tech.name }
                 >
-                  <img
+                  <AsyncImage
                     className="tech-icons w-3/4 h-fit"
                     src={ tech.img }
                     alt={ tech.name }
@@ -49,7 +50,7 @@ function Technologies() {
               {techsList.map((tech) => (
                 <Tab.Panel key={ tech.name }>
                   <div className="grid grid-cols-12 gap-5 p-6">
-                    <img
+                    <AsyncImage
                       className="tech-icons hidden md:block md:col-span-2 lg:col-span-1
                     h-fit"
                       src={ tech.img }
@@ -58,7 +59,7 @@ function Technologies() {
                     <div className="col-span-12 md:col-span-10 lg:col-span-11">
                       <TechTitle className="mb-4 relative">
                         {tech.name}
-                        <img
+                        <AsyncImage
                           className="block md:hidden absolute top-0 right-0 h-14 w-fit"
                           src={ tech.img }
                           alt={ tech.name }

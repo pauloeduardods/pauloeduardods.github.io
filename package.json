@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "lint": "eslint --no-inline-config --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
     "build": "react-scripts build",
     "build-nginx": "PUBLIC_URL=/ react-scripts build",
