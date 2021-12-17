@@ -5,7 +5,7 @@ import { AboutTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
 import { MoreButton } from '../Atoms/Buttons';
 import {
-  About1stP, About2ndP, profilePhoto, backgroundImage } from '../../data/aboutData';
+  About1stP, About2ndP, profilePhoto } from '../../data/aboutData';
 import '../../css/about.css';
 import AboutModal from '../Molecules/AboutModal';
 
