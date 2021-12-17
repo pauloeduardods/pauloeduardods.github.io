@@ -15,8 +15,7 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-black via-gray-700 to-yellow-500
-      bg-yellow-black-img py-14 h-fit"
+      className="bg-black bg-yellow-black-img py-14 h-fit"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-12 lg:gap-8">
