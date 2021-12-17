@@ -1,4 +1,4 @@
-import profilePhoto from '../images/profilePhoto.jpeg';
+import profilePhoto from '../images/profilePhoto.png';
 
 const About1stP = 'Me chamo Paulo Eduardo de Sordi Gomes e sou de São José do Rio Pardo, SP.';
 
