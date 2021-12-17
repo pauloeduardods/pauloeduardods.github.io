@@ -30,7 +30,7 @@ function Technologies() {
             ))}
           </Tab.List>
           <Tab.Panels
-            className="mt-4 bg-slate-200 bg-opacity-20 rounded-2xl h-64 overflow-y-scroll"
+            className="mt-4 bg-slate-200 bg-opacity-20 rounded-2xl h-64 overflow-y-auto"
           >
             {techsList.map((tech) => (
               <Tab.Panel key={ tech.name }>

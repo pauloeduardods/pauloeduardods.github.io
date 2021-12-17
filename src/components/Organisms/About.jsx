@@ -13,17 +13,20 @@ function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-12 lg:gap-8">
           <div className="col-span-12 lg:col-span-6 text-gray-50">
-            <h1 className="mb-3">
-              <AboutTitle>
-                Olá! eu sou o
-                {' '}
-              </AboutTitle>
-              <AboutTitle
-                className="font-semibold"
-              >
-                Paulo!
-              </AboutTitle>
-            </h1>
+            <header>
+              <h1 className="hidden">Paulo Eduardo de Sordi Gomes</h1>
+              <h2 className="mb-3">
+                <AboutTitle>
+                  Olá! eu sou o
+                  {' '}
+                </AboutTitle>
+                <AboutTitle
+                  className="font-semibold"
+                >
+                  Paulo!
+                </AboutTitle>
+              </h2>
+            </header>
             <AboutDescription>
               {About1stP}
             </AboutDescription>
