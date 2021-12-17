@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import FadeIn from 'react-fade-in';
+import AsyncImage from '../../utils/AsyncImage';
 import { AboutTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
 import { MoreButton } from '../Atoms/Buttons';
-import { About1stP, About2ndP, profilePhoto } from '../../data/aboutData';
+import {
+  About1stP, About2ndP, profilePhoto, backgroundImage } from '../../data/aboutData';
 import '../../css/about.css';
 import AboutModal from '../Molecules/AboutModal';
 
 function About() {
   const [modalOpen, setModalOpen] = useState(false);
+
   return (
-    <section id="about" className="bg-yellow-black-img py-14 h-fit">
+    <section id="about" className="bg-slate-800 bg-yellow-black-img py-14 h-fit">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-12 lg:gap-8">
           <div className="col-span-12 lg:col-span-6 text-gray-50">
@@ -55,9 +58,9 @@ function About() {
             </FadeIn>
           </div>
           <div className="col-span-12 lg:col-span-6 flex justify-center">
-            <img
+            <AsyncImage
               src={ profilePhoto }
-              alt="Profile"
+              alt="Paulo Eduardo de Sordi Gomes"
               className="w-full h-fit sm:w-2/3 lg:w-full border-2 border-yellow-400"
             />
           </div>
