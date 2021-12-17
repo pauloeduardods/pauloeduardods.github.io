@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import ReactGa from 'react-ga';
 import Config from './Config';
 import Home from './pages/Home';
+import './App.css';
 
 function App() {
   useEffect(() => {
