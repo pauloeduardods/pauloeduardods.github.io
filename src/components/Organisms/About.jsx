@@ -13,7 +13,11 @@ function About() {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <section id="about" className="bg-slate-800 bg-yellow-black-img py-14 h-fit">
+    <section
+      id="about"
+      className="bg-gradient-to-rfrom-slate-900 to-yellow-400
+      bg-yellow-black-img py-14 h-fit"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-12 lg:gap-8">
           <div className="col-span-12 lg:col-span-6 text-gray-50">
