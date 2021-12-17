@@ -15,11 +15,11 @@ function HeaderNav() {
       <a href="#about">
         <TextWhite>Sobre</TextWhite>
       </a>
-      <a href="#projects">
-        <TextWhite>Projetos</TextWhite>
-      </a>
       <a href="#tech">
         <TextWhite>Tecnologias</TextWhite>
+      </a>
+      <a href="#projects">
+        <TextWhite>Projetos</TextWhite>
       </a>
 
       <Popover className="relative">

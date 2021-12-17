@@ -1,13 +1,21 @@
 import React from 'react';
 import { Tab } from '@headlessui/react';
 import techsList from '../../data/technologiesData';
-import { TechTitle } from '../Atoms/Title';
+import { SectionTitle, TechTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
+import { TagName, ArroyTag } from '../Atoms/HtmlTags';
 
 function Technologies() {
   return (
-    <section className="bg-slate-800 py-10">
+    <section className="bg-slate-800 py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <header>
+          <SectionTitle className="text-left pb-3">
+            <ArroyTag>{ '<' }</ArroyTag>
+            <TagName>Tecnologias</TagName>
+            <ArroyTag>{ '>' }</ArroyTag>
+          </SectionTitle>
+        </header>
         <Tab.Group>
           <Tab.List
             id="tech"
@@ -16,8 +24,9 @@ function Technologies() {
             {techsList.map((tech) => (
               <Tab
                 className={
-                  ({ selected }) => `w-1/4 sm:w-1/6 md:w-1/12 flex justify-center
-                  items-center p-1 ${selected ? 'bg-slate-100 rounded-2xl' : ''}`
+                  ({ selected }) => `w-1/4 xs:w-1/5 sm:w-1/7 md:w-1/12 flex 
+                  justify-center items-center p-1 
+                  ${selected ? 'bg-slate-100 rounded-2xl' : ''}`
                 }
                 key={ tech.name }
               >
@@ -30,7 +39,8 @@ function Technologies() {
             ))}
           </Tab.List>
           <Tab.Panels
-            className="mt-4 bg-slate-200 bg-opacity-20 rounded-2xl h-64 overflow-y-auto"
+            className="mt-4 bg-slate-200 bg-opacity-20 rounded-2xl
+            h-64 sm:h-48 md:h-52 lg:h-48 overflow-y-auto"
           >
             {techsList.map((tech) => (
               <Tab.Panel key={ tech.name }>
@@ -53,7 +63,7 @@ function Technologies() {
                     {tech.description.map((desc) => (
                       <AboutDescription
                         key={ desc }
-                        className="text-gray-100 py-0 pb-1"
+                        className="text-gray-100 py-0 pb-1 indent-0 pl-3"
                       >
                         { desc }
                       </AboutDescription>
@@ -64,6 +74,11 @@ function Technologies() {
             ))}
           </Tab.Panels>
         </Tab.Group>
+        <SectionTitle className="text-left pt-6">
+          <ArroyTag>{'</'}</ArroyTag>
+          <TagName>Tecnologias</TagName>
+          <ArroyTag>{'>'}</ArroyTag>
+        </SectionTitle>
       </div>
     </section>);
 }
