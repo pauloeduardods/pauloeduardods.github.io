@@ -60,7 +60,7 @@ function Technologies() {
                       <TechTitle className="mb-4 relative">
                         {tech.name}
                         <AsyncImage
-                          className="block md:hidden absolute top-0 right-0 h-14 w-fit"
+                          className="block md:hidden absolute top-0 right-0 h-14"
                           src={ tech.img }
                           alt={ tech.name }
                         />
