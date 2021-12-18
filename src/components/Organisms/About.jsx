@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FadeIn from 'react-fade-in';
 import AsyncImage from '../../utils/AsyncImage';
+import Container from '../Atoms/Container';
 import { AboutTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
 import { MoreButton } from '../Atoms/Buttons';
@@ -17,7 +18,7 @@ function About() {
       id="about"
       className="bg-black bg-yellow-black-img py-8 h-fit"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <Container>
         <div className="grid grid-cols-12 lg:gap-8">
           <div className="col-span-12 lg:col-span-6 text-gray-50">
             <header>
@@ -68,7 +69,7 @@ function About() {
             />
           </div>
         </div>
-      </div>
+      </Container>
       <AboutModal open={ modalOpen } setOpen={ setModalOpen } />
     </section>
   );
