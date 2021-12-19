@@ -21,7 +21,7 @@ function Header() {
   return (
     <header>
       <Popover className="relative border-b-2 border-gray-800">
-        <ContainerWithBackground>
+        <ContainerWithBackground color={ false }>
           <div
             className="flex justify-between items-center
           py-6 md:justify-start md:space-x-10"

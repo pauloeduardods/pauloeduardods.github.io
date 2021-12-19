@@ -10,7 +10,7 @@ import { TagName, ArroyTag } from '../Atoms/HtmlTags';
 
 function Technologies() {
   return (
-    <ContainerWithBackground className="py-6" id="tech">
+    <ContainerWithBackground className="py-6" id="tech" color={ false }>
       <FadeIn transitionDuration="800">
         <header>
           <SectionTitle className="text-left pb-3">
