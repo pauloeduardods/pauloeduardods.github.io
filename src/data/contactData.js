@@ -1,10 +1,10 @@
-import gitHubImage from '../images/github.png';
-import gmailImage from '../images/gmail.png';
-import linkedinImage from '../images/linkedin.png';
-import whatsappImage from '../images/whatsapp.png';
+import gitHubImage from '../images/contacts/github.png';
+import gmailImage from '../images/contacts/gmail.png';
+import linkedinImage from '../images/contacts/linkedin.png';
+import whatsappImage from '../images/contacts/whatsapp.png';
 import LinkedinIcon from '../icons/linkedin.svg';
 import GitHubIcon from '../icons/github.svg';
-import pLogo from '../images/p-logo.png';
+import pLogo from '../images/logo/p-logo.png';
 
 const linkedinLink = 'https://www.linkedin.com/in/pauloeduardods/';
 const ghLink = 'https://github.com/pauloeduardods';

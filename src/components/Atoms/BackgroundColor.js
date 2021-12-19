@@ -5,7 +5,7 @@ const BackgroundColor = tw.div`
 `;
 
 const BackgroundColor2 = tw.div`
-  bg-slate-900
+  bg-slate-100
 `;
 
 export { BackgroundColor, BackgroundColor2 };
