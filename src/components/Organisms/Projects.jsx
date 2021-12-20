@@ -58,10 +58,18 @@ function Projects() {
             </button>
           </div>
           <div
-            className="hidden lg:block lg:col-span-1 lg:row-span-6 bg-slate-800
-            rounded-tr-xl rounded-br-3xl"
+            className="hidden lg:flex lg:col-span-1 lg:row-span-6 bg-slate-800
+            rounded-tr-xl rounded-br-3xl flex-col items-center justify-between
+            overflow-y-auto py-2"
           >
-            sla
+            {ProjectsData[curProject].technologies.map((tech) => (
+              <AsyncImage
+                src={ tech.img }
+                alt={ tech.name }
+                key={ tech.name }
+                className="w-2/3 my-2"
+              />
+            ))}
           </div>
           <div
             className="col-span-12 h-[70px] md:h-full lg:col-span-11 md:row-span-1
@@ -92,6 +100,9 @@ function Projects() {
                 />
               </CarouselButton>
             </div>
+            <header className="ml-10">
+              <h2 className="text-white">{ ProjectsData[curProject].name }</h2>
+            </header>
           </div>
 
         </div>
