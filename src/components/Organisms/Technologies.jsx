@@ -6,7 +6,7 @@ import techsList from '../../data/technologiesData';
 import ContainerWithBackground from '../Molecules/ContainerWithBackground';
 import { SectionTitle, TechTitle } from '../Atoms/Title';
 import { AboutDescription } from '../Atoms/Texts';
-import { TagName, ArroyTag } from '../Atoms/HtmlTags';
+import { TagName, ArrowTag } from '../Atoms/HtmlTags';
 
 function Technologies() {
   return (
@@ -14,9 +14,9 @@ function Technologies() {
       <FadeIn transitionDuration="800">
         <header>
           <SectionTitle className="text-left pb-3">
-            <ArroyTag>{'<'}</ArroyTag>
+            <ArrowTag>{'<'}</ArrowTag>
             <TagName>Tecnologias</TagName>
-            <ArroyTag>{'>'}</ArroyTag>
+            <ArrowTag>{'>'}</ArrowTag>
           </SectionTitle>
         </header>
       </FadeIn>
@@ -81,9 +81,9 @@ function Technologies() {
       </FadeIn>
       <FadeIn delay="200" transitionDuration="800">
         <SectionTitle className="text-left pt-6">
-          <ArroyTag>{'</'}</ArroyTag>
+          <ArrowTag>{'</'}</ArrowTag>
           <TagName>Tecnologias</TagName>
-          <ArroyTag>{'>'}</ArroyTag>
+          <ArrowTag>{'>'}</ArrowTag>
         </SectionTitle>
       </FadeIn>
     </ContainerWithBackground>);

@@ -5,7 +5,8 @@ import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from '@heroicons/react/soli
 import AsyncImage from '../../utils/AsyncImage';
 import ContainerWithBackground from '../Molecules/ContainerWithBackground';
 import { CarouselButton, SeeProjectButton } from '../Atoms/Buttons';
-import { ProjectTitle, ProjectSubTitle } from '../Atoms/Title';
+import { ProjectTitle, ProjectSubTitle, SectionTitle } from '../Atoms/Title';
+import { ArrowTagWhite, TagNameWhite } from '../Atoms/HtmlTags';
 import ProjectsData from '../../data/projectsData';
 
 function Projects() {
@@ -22,19 +23,25 @@ function Projects() {
   }
 
   return (
-    <ContainerWithBackground id="projects" className="pb-12 pt-12" color>
-      <header>
-        <h1>Projects</h1>
-      </header>
+    <ContainerWithBackground id="projects" className="pb-6 pt-8" color>
+      <FadeIn transitionDuration="800">
+        <header>
+          <SectionTitle className="text-left pb-3">
+            <ArrowTagWhite>{'<'}</ArrowTagWhite>
+            <TagNameWhite>Projetos</TagNameWhite>
+            <ArrowTagWhite>{'>'}</ArrowTagWhite>
+          </SectionTitle>
+        </header>
+      </FadeIn>
       <FadeIn delay="600" transitionDuration="1000">
         <div className="flex justify-center">
           <div
-            className="w-full lg:w-11/12 xl:w-10/12 md:h-[570px]
+            className="w-full lg:w-11/12 xl:w-10/12 md:h-[670px] lg:h-[700px]
           grid grid-cols-12 md:grid-rows-6 shadow-lg shadow-slate-900
           rounded-tr-xl rounded-br-3xl rounded-bl-lg"
           >
             <div
-              className="col-span-12 h-[230px] xs:h-[300px] sm:h-[390px]
+              className="col-span-12 h-[235px] xs:h-[340px] sm:h-[390px]
             md:h-full lg:col-span-11 md:row-span-5 bg-slate-600 rounded-tr-xl
             md:rounded-tr-none relative"
             >
@@ -122,6 +129,13 @@ function Projects() {
             </div>
           </div>
         </div>
+      </FadeIn>
+      <FadeIn delay="200" transitionDuration="800">
+        <SectionTitle className="text-left pt-6">
+          <ArrowTagWhite>{'</'}</ArrowTagWhite>
+          <TagNameWhite>Projetos</TagNameWhite>
+          <ArrowTagWhite>{'>'}</ArrowTagWhite>
+        </SectionTitle>
       </FadeIn>
     </ContainerWithBackground>
   );
