@@ -27,6 +27,7 @@ const CarouselButton = tw.button`
   mx-3
   relative
   w-20
+  h-[42px]
   flex
   justify-center
   py-2
@@ -44,4 +45,28 @@ const CarouselButton = tw.button`
   focus:ring-offset-2
 `;
 
-export { MoreButton, CarouselButton };
+const SeeProjectButton = tw.a`
+  group
+  mx-3
+  relative
+  w-28
+  h-[42px]
+  flex
+  justify-center
+  py-2
+  px-4
+  border
+  border-transparent
+  text-sm
+  font-bold
+  rounded-md
+  text-white
+  bg-rose-600
+  hover:bg-rose-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-offset-2
+  origin-right
+`;
+
+export { MoreButton, CarouselButton, SeeProjectButton };

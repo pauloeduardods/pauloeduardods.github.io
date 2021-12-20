@@ -3,7 +3,8 @@ import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/
 import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from '@heroicons/react/solid';
 import AsyncImage from '../../utils/AsyncImage';
 import ContainerWithBackground from '../Molecules/ContainerWithBackground';
-import { CarouselButton } from '../Atoms/Buttons';
+import { CarouselButton, SeeProjectButton } from '../Atoms/Buttons';
+import { ProjectTitle, ProjectSubTitle } from '../Atoms/Title';
 import ProjectsData from '../../data/projectsData';
 
 function Projects() {
@@ -26,7 +27,7 @@ function Projects() {
       </header>
       <div className="flex justify-center">
         <div
-          className="w-full lg:w-10/12 md:h-[570px]
+          className="w-full lg:w-11/12 xl:w-10/12 md:h-[570px]
           grid grid-cols-12 md:grid-rows-6 shadow-lg shadow-slate-900
           rounded-tr-xl rounded-br-3xl rounded-bl-lg"
         >
@@ -35,11 +36,17 @@ function Projects() {
             md:h-full lg:col-span-11 md:row-span-5 bg-slate-600 rounded-tr-xl
             md:rounded-tr-none relative"
           >
-            <AsyncImage
-              src={ ProjectsData[curProject].image }
-              alt={ ProjectsData[curProject].name }
-              className="object-cover w-full h-full rounded-tr-xl lg:rounded-tr-none"
-            />
+            <a
+              href={ ProjectsData[curProject].link }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AsyncImage
+                src={ ProjectsData[curProject].image }
+                alt={ ProjectsData[curProject].name }
+                className="object-cover w-full h-full rounded-tr-xl lg:rounded-tr-none"
+              />
+            </a>
             <button
               type="button"
               className="md:hidden absolute left-0 top-0 flex items-center h-full
@@ -72,14 +79,14 @@ function Projects() {
             ))}
           </div>
           <div
-            className="col-span-12 h-[70px] md:h-full lg:col-span-11 md:row-span-1
-            bg-slate-900 rounded-bl-lg flex items-center px-9 rounded-br-3xl
+            className="col-span-12 h-[140px] xs:h-[130px] md:h-full lg:col-span-11
+            md:row-span-1 bg-slate-900 rounded-bl-lg flex flex-col sm:flex-row
+            items-center justify-evenly sm:justify-between px-9 rounded-br-3xl
             lg:rounded-br-none"
           >
             <div className="hidden md:flex">
               <CarouselButton
                 type="button"
-                className=""
                 // eslint-disable-next-line react/jsx-no-bind
                 onClick={ prevButton }
               >
@@ -90,7 +97,6 @@ function Projects() {
               </CarouselButton>
               <CarouselButton
                 type="button"
-                className="bg-red-600"
                 // eslint-disable-next-line react/jsx-no-bind
                 onClick={ nexButton }
               >
@@ -100,9 +106,17 @@ function Projects() {
                 />
               </CarouselButton>
             </div>
-            <header className="ml-10">
-              <h2 className="text-white">{ ProjectsData[curProject].name }</h2>
+            <header className="overflow-y-auto min-h-[45px]">
+              <ProjectTitle>{ProjectsData[curProject].name}</ProjectTitle>
+              <ProjectSubTitle>{ProjectsData[curProject].subTitle}</ProjectSubTitle>
             </header>
+            <SeeProjectButton
+              href={ ProjectsData[curProject].link }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver projeto
+            </SeeProjectButton>
           </div>
 
         </div>

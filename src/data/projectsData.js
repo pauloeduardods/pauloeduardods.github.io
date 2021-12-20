@@ -8,9 +8,10 @@ function getTechs(Array) {
 }
 
 const projectsData = [
-  { name: 'App de Receitas', image: ProjectImage, technologies: getTechs(['JavaScript', 'React', 'RTL', 'CSS', 'Bootstrap', 'Docker', 'TailwindCSS', 'Redux', 'HTML', 'Jest' ]) },
+  { name: 'App de Receitas', subTitle:'Aplicativo de receitas', image: ProjectImage, technologies: getTechs(['React', 'RTL', 'Bootstrap', 'CSS', 'Docker' ]), link: 'https://pauloedsg.com/recipes-app' },
   { name: 'TrybeWallet', image: ProjectImage, technologies: getTechs(['JavaScript', 'React', 'RTL', 'CSS', 'Bootstrap', 'Docker' ]) },
   { name: 'Trivia', image: ProjectImage, technologies: getTechs(['JavaScript', 'React', 'RTL', 'CSS', 'Bootstrap', 'Docker']) },
+  { name: 'Front-end Online Store', subTitle: 'Loja Online', image: ProjectImage, technologies: getTechs(['React', 'RTL', 'Bootstrap', 'CSS', 'Docker']), link: 'https://pauloedsg.com/recipes-app' },
 ];
 
 export default projectsData;
