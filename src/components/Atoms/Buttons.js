@@ -24,8 +24,9 @@ const MoreButton = tw.button`
 
 const CarouselButton = tw.button`
   group
+  mx-3
   relative
-  w-60
+  w-20
   flex
   justify-center
   py-2
@@ -36,12 +37,11 @@ const CarouselButton = tw.button`
   font-medium
   rounded-md
   text-white
-  bg-indigo-600
-  hover:bg-indigo-700
+  bg-rose-600
+  hover:bg-rose-700
   focus:outline-none
   focus:ring-2
   focus:ring-offset-2
-  focus:ring-indigo-500
 `;
 
 export { MoreButton, CarouselButton };

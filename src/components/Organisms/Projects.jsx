@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/outline';
+import { ArrowCircleLeftIcon, ArrowCircleRightIcon } from '@heroicons/react/solid';
 import AsyncImage from '../../utils/AsyncImage';
 import ContainerWithBackground from '../Molecules/ContainerWithBackground';
 import { CarouselButton } from '../Atoms/Buttons';
@@ -41,17 +42,19 @@ function Projects() {
             />
             <button
               type="button"
-              className="md:hidden absolute left-0 top-0 flex items-center h-full"
+              className="md:hidden absolute left-0 top-0 flex items-center h-full
+              hover:bg-opacity-30 hover:bg-gray-100 text-gray-100"
               onClick={ prevButton }
             >
-              <ChevronDoubleLeftIcon className="h-8 w-8 ml-2 mr-12" aria-hidden="true" />
+              <ArrowCircleLeftIcon className="h-10 w-10 mx-7" aria-hidden="true" />
             </button>
             <button
               type="button"
-              className="md:hidden absolute right-0 top-0 flex items-center h-full"
+              className="md:hidden absolute right-0 top-0 flex items-center h-full
+              hover:bg-opacity-30 hover:bg-gray-100 text-gray-100"
               onClick={ nexButton }
             >
-              <ChevronDoubleRightIcon className="h-8 w-8 mr-2 ml-12" aria-hidden="true" />
+              <ArrowCircleRightIcon className="h-10 w-10 mx-7" aria-hidden="true" />
             </button>
           </div>
           <div
@@ -65,20 +68,28 @@ function Projects() {
             bg-slate-900 rounded-bl-lg flex items-center px-9 rounded-br-3xl
             lg:rounded-br-none"
           >
-            <div className="hidden md:block">
+            <div className="hidden md:flex">
               <CarouselButton
                 type="button"
-                className="bg-red-600"
+                className=""
+                // eslint-disable-next-line react/jsx-no-bind
                 onClick={ prevButton }
               >
-                Prev
+                <ChevronDoubleLeftIcon
+                  className="h-6 w-6"
+                  aria-hidden="true"
+                />
               </CarouselButton>
               <CarouselButton
                 type="button"
                 className="bg-red-600"
+                // eslint-disable-next-line react/jsx-no-bind
                 onClick={ nexButton }
               >
-                Next
+                <ChevronDoubleRightIcon
+                  className="h-6 w-6"
+                  aria-hidden="true"
+                />
               </CarouselButton>
             </div>
           </div>
