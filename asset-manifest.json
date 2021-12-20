@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.eee10ff5.css",
-    "main.js": "/static/js/main.36d6eda0.js",
+    "main.css": "/static/css/main.bcca9e08.css",
+    "main.js": "/static/js/main.e7901052.js",
     "static/js/787.95dfc56e.chunk.js": "/static/js/787.95dfc56e.chunk.js",
+    "static/media/Recipes-app.png": "/static/media/Recipes-app.e9f4c8f9c283285f0390.png",
+    "static/media/TrybeTunes.png": "/static/media/TrybeTunes.7fa8752cdb55d5c3a163.png",
     "static/media/HTML.png": "/static/media/HTML.bd92ee7a4cf5b55caacb.png",
     "static/media/profilePhoto.png": "/static/media/profilePhoto.d5e2f4f2ca8dc7233cbe.png",
     "static/media/JS.png": "/static/media/JS.4cdf409081a8bc025826.png",
@@ -12,24 +14,28 @@
     "static/media/background-yellow-black.jpg": "/static/media/background-yellow-black.282c0520c26e8d357161.jpg",
     "static/media/react.png": "/static/media/react.6fc40c810845275ed69d.png",
     "static/media/gmail.png": "/static/media/gmail.860de8174cfcb75a53c3.png",
+    "static/media/OnlineStore.png": "/static/media/OnlineStore.bed1323883e5f6954818.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.c826b0165560636baf0b.png",
     "static/media/docker.png": "/static/media/docker.7fadbc97e4a5ae55a2e0.png",
     "static/media/jest.png": "/static/media/jest.ac13524226c4d663a0e3.png",
+    "static/media/StarWars.png": "/static/media/StarWars.24e08b303aae29f7e250.png",
     "static/media/github.png": "/static/media/github.648e666260ca9d409a49.png",
+    "static/media/Trivia.png": "/static/media/Trivia.f39f0c2f896c2bed2e2a.png",
     "static/media/RTL.png": "/static/media/RTL.607f878ff3514d6bf991.png",
     "static/media/redux.png": "/static/media/redux.fdd19defbeeccfd85306.png",
+    "static/media/TrybeWallet.png": "/static/media/TrybeWallet.c12777771b013833f876.png",
     "static/media/sql.png": "/static/media/sql.50a35a7e4e120baa0925.png",
     "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/github.svg": "/static/media/github.48cd6e6cbbd2cc55ca539ab647d53104.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.a711cb1748722f5a9d6192523f07f641.svg",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
-    "main.eee10ff5.css.map": "/static/css/main.eee10ff5.css.map",
-    "main.36d6eda0.js.map": "/static/js/main.36d6eda0.js.map",
+    "main.bcca9e08.css.map": "/static/css/main.bcca9e08.css.map",
+    "main.e7901052.js.map": "/static/js/main.e7901052.js.map",
     "787.95dfc56e.chunk.js.map": "/static/js/787.95dfc56e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee10ff5.css",
-    "static/js/main.36d6eda0.js"
+    "static/css/main.bcca9e08.css",
+    "static/js/main.e7901052.js"
   ]
 }
