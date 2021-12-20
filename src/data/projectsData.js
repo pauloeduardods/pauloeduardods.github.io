@@ -1,7 +1,7 @@
 import ProjectImage from '../images/profile/profilePhoto.png';
 import techsList from './technologiesData';
 
-function getTechs(Array) {
+function getTechs(Array) { // JavaScript HTML CSS Bootstrap TailwindCSS React Redux Jest RTL Docker SQL
   return Array.map((tech) => {
     return techsList.find((item) => item.name === tech);
   });
