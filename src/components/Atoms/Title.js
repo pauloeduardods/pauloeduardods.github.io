@@ -31,4 +31,14 @@ const TechTitle = tw.h1`
   underline-offset-4
 `;
 
-export { SectionTitle, AboutTitle, AboutModalTitle, TechTitle };
+const ProjectTitle = tw.h1`
+  text-center sm:text-left text-white font-mono text-base md:text-xl lg:text-xl
+  font-semibold
+`;
+
+const ProjectSubTitle = tw.h2`
+  text-center sm:text-left text-white font-mono text-sm
+`;
+
+export {
+  SectionTitle, AboutTitle, AboutModalTitle, TechTitle, ProjectTitle, ProjectSubTitle };

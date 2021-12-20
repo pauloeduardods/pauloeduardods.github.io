@@ -22,7 +22,51 @@ const MoreButton = tw.button`
   focus:ring-indigo-500
 `;
 
-const sla = tw.button`
+const CarouselButton = tw.button`
+  group
+  mx-3
+  relative
+  w-20
+  h-[42px]
+  flex
+  justify-center
+  py-2
+  px-4
+  border
+  border-transparent
+  text-sm
+  font-medium
+  rounded-md
+  text-white
+  bg-rose-600
+  hover:bg-rose-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-offset-2
 `;
 
-export { MoreButton, sla };
+const SeeProjectButton = tw.a`
+  group
+  mx-3
+  relative
+  w-28
+  h-[42px]
+  flex
+  justify-center
+  py-2
+  px-4
+  border
+  border-transparent
+  text-sm
+  font-bold
+  rounded-md
+  text-white
+  bg-rose-600
+  hover:bg-rose-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-offset-2
+  origin-right
+`;
+
+export { MoreButton, CarouselButton, SeeProjectButton };
