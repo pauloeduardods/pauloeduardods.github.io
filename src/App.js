@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import ReactGa from 'react-ga';
+import Header from './components/Organisms/Header';
+import Footer from './components/Organisms/Footer';
 import Config from './Config';
 import Home from './pages/Home';
 import './App.css';
@@ -14,10 +16,14 @@ function App() {
   }, []);
 
   return (
-    <Switch>
-      <Route exact path="/" component={ Home } />
-      <Route component={ () => (<div>Not found</div>) } />
-    </Switch>
+    <>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={ Home } />
+        <Route component={ () => (<div>Not found</div>) } />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 

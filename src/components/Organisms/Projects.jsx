@@ -59,18 +59,24 @@ function Projects() {
               <button
                 type="button"
                 className="md:hidden absolute left-0 top-0 flex items-center h-full
-              hover:bg-opacity-30 hover:bg-gray-100 text-gray-100"
+              hover:bg-opacity-30 hover:bg-gray-100 text-rose-600"
                 onClick={ prevButton }
               >
-                <ArrowCircleLeftIcon className="h-10 w-10 mx-7" aria-hidden="true" />
+                <ArrowCircleLeftIcon
+                  className="h-10 w-10 mx-7 bg-slate-900 rounded-full"
+                  aria-hidden="true"
+                />
               </button>
               <button
                 type="button"
                 className="md:hidden absolute right-0 top-0 flex items-center h-full
-              hover:bg-opacity-30 hover:bg-gray-100 text-gray-100"
+              hover:bg-opacity-30 hover:bg-gray-100 text-rose-600"
                 onClick={ nexButton }
               >
-                <ArrowCircleRightIcon className="h-10 w-10 mx-7" aria-hidden="true" />
+                <ArrowCircleRightIcon
+                  className="h-10 w-10 mx-7 bg-slate-900 rounded-full"
+                  aria-hidden="true"
+                />
               </button>
             </div>
             <div
