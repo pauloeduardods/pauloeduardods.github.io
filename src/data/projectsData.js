@@ -6,7 +6,7 @@ import StarWarsImage from '../images/projects/StarWars.png';
 import OnlineStoreImage from '../images/projects/OnlineStore.png';
 import TrybeTunesImage from '../images/projects/TrybeTunes.png';
 
-function getTechs(Array) { // JavaScript HTML CSS Bootstrap TailwindCSS React Redux Jest RTL Docker SQL
+function getTechs(Array) { // JavaScript HTML CSS Bootstrap TailwindCSS React Redux Jest RTL Docker SQL AWS
   return Array.map((tech) => {
     return techsList.find((item) => item.name === tech);
   });
