@@ -49,9 +49,9 @@ Link para a aplicação: https://pauloedsg.com
 
 🚧 Em desenvolvimento 🚧
 
- -[x] Desenvolver o header
- -[x] Desenvolver o footer
- -[x] Desenvolver a seção do About
- -[x] Desenvolver a seção de Tecnologias
- -[x] Desenvolver a seção de Projetos
- -[ ] Testar a aplicação
+ - [x] Desenvolver o header
+ - [x] Desenvolver o footer
+ - [x] Desenvolver a seção do About
+ - [x] Desenvolver a seção de Tecnologias
+ - [x] Desenvolver a seção de Projetos
+ - [ ] Testar a aplicação
