@@ -72,7 +72,7 @@ function Header() {
           <Popover.Panel
             focus
             className="absolute top-0 inset-x-0 p-2 transition transform
-          origin-top-right md:hidden"
+          origin-top-right md:hidden z-40"
           >
             <HeaderNavPanel />
           </Popover.Panel>
