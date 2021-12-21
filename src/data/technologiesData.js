@@ -9,6 +9,7 @@ import bootstrapImage from '../images/technologies/bootstrap.png';
 import tailwindImage from '../icons/tailwindcss.svg';
 import dockerImage from '../images/technologies/docker.png';
 import sqlImage from '../images/technologies/sql.png';
+import AWSImage from '../images/technologies/AWS.png';
 
 const JavaScript = [
   'Algumas features que conheço:',
@@ -65,18 +66,24 @@ const Mysql = [
   'SELECT, LIMIT, OFFSET, ORDER BY, WHERE, LIKE, IN, BETWEEN, INSERT, UPDATE, DELETE, GROUP BY, HAVING, JOINs, etc...'
 ];
 
+const AWS = [
+  'Algumas features que conheço:',
+  'EC2, S3, Route53, CodeBuild e IAM',
+];
+
 const techsList = [
   { name: 'JavaScript', img: jsImage, description: JavaScript },
   { name: 'HTML', img: htmlImage, description: HTML },
   { name: 'CSS', img: cssImage, description: CSS },
-  { name: 'Bootstrap', img: bootstrapImage, description: Bootstrap },
-  { name: 'TailwindCSS', img: tailwindImage, description: TailwindCSS },
   { name: 'React', img: reactImage, description: React },
   { name: 'Redux', img: reduxImage, description: Redux },
-  { name: 'Jest', img: jestImage, description: Jest },
   { name: 'RTL', img: rtlImage, description: RTL },
+  { name: 'Jest', img: jestImage, description: Jest },
   { name: 'Docker', img: dockerImage, description: Docker },
+  { name: 'AWS', img: AWSImage, description: AWS },
   { name: 'SQL', img: sqlImage, description: Mysql },
+  { name: 'TailwindCSS', img: tailwindImage, description: TailwindCSS },
+  { name: 'Bootstrap', img: bootstrapImage, description: Bootstrap },
 ];
 
 export default techsList;
