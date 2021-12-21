@@ -36,12 +36,12 @@ function Projects() {
       <FadeIn delay="600" transitionDuration="1000">
         <div className="flex justify-center">
           <div
-            className="w-full lg:w-11/12 xl:w-10/12 md:h-[670px] lg:h-[700px]
+            className="w-full lg:w-11/12 xl:w-10/12 md:h-fit
           grid grid-cols-12 md:grid-rows-6 shadow-lg shadow-slate-900
           rounded-tr-xl rounded-br-3xl rounded-bl-lg"
           >
             <div
-              className="col-span-12 h-[235px] xs:h-[340px] sm:h-[390px]
+              className="col-span-12 h-fit
             md:h-full lg:col-span-11 md:row-span-5 bg-slate-600 rounded-tr-xl
             md:rounded-tr-none relative"
             >
@@ -50,11 +50,18 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AsyncImage
-                  src={ ProjectsData[curProject].image }
-                  alt={ ProjectsData[curProject].name }
-                  className="object-cover w-full h-full rounded-tr-xl lg:rounded-tr-none"
-                />
+                {/* imagens no tamanho 940x534 */}
+                { ProjectsData.map((project) => (
+                  <AsyncImage
+                    src={ project.image }
+                    alt={ project.name }
+                    key={ project.name }
+                    className={ `object-cover w-full h-full rounded-tr-xl
+                    lg:rounded-tr-none
+                    ${project.image === ProjectsData[curProject].image
+                    ? 'block' : 'hidden'}` }
+                  />
+                ))}
               </a>
               <button
                 type="button"
@@ -63,7 +70,7 @@ function Projects() {
                 onClick={ prevButton }
               >
                 <ArrowCircleLeftIcon
-                  className="h-10 w-10 mx-7 bg-slate-900 rounded-full"
+                  className="h-6 w-6 xs:w-10 xs:h-10 mx-7 bg-slate-900 rounded-full"
                   aria-hidden="true"
                 />
               </button>
@@ -74,7 +81,7 @@ function Projects() {
                 onClick={ nexButton }
               >
                 <ArrowCircleRightIcon
-                  className="h-10 w-10 mx-7 bg-slate-900 rounded-full"
+                  className="h-6 w-6 xs:w-10 xs:h-10 mx-7 bg-slate-900 rounded-full"
                   aria-hidden="true"
                 />
               </button>
@@ -94,9 +101,9 @@ function Projects() {
               ))}
             </div>
             <div
-              className="col-span-12 h-[140px] xs:h-[130px] md:h-full lg:col-span-11
+              className="col-span-12 h-[130px] sm:h-[90px] md:h-full lg:col-span-11
             md:row-span-1 bg-slate-900 rounded-bl-lg flex flex-col sm:flex-row
-            items-center justify-evenly sm:justify-between px-9 rounded-br-3xl
+            items-center justify-evenly sm:justify-between px-2 sm:px-9 rounded-br-3xl
             lg:rounded-br-none"
             >
               <div className="hidden md:flex">
