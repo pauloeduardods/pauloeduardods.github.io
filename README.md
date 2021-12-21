@@ -40,7 +40,8 @@ Link para a aplicação: https://pauloedsg.com
 * Tailwind
 * Tailwind-Styled-Components
 * HeadlessUI
-* AWS EC2
+* GitHub Actions (CI/CD)
+* AWS EC2 (CD)
 * Docker
 * Nginx
 
