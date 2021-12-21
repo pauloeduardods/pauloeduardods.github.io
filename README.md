@@ -25,7 +25,7 @@ Link para a aplicação: https://pauloedsg.com
 ### Com docker
 1. Clonar o projeto `git clone git@github.com:pauloeduardods/pauloeduardods.github.io.git`
 2. Entrar no diretório `cd pauloeduardods.github.io`
-3. Rodar o docker run `docker build -t pauloeduardods:latest .`
+3. Rodar o docker build `docker build -t pauloeduardods:latest .`
 4. Rodar o docker run `docker run -p 8080:80 -d pauloeduardods`
 5. Acessar a aplicação `http://localhost:8080`
 
