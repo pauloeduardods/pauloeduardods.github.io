@@ -16,7 +16,7 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-black bg-yellow-black-img py-8 h-fit"
+      className="bg-black bg-yellow-black-img py-8 h-fit z-0"
     >
       <Container>
         <div className="grid grid-cols-12 lg:gap-8">
@@ -53,7 +53,7 @@ function About() {
             <FadeIn delay="2900" transitionDuration="800">
               <div className="flex justify-center">
                 <MoreButton
-                  className="mb-6 lg:mb-0"
+                  className="mb-6 lg:mb-0 z-0 overflow-hidden"
                   onClick={ () => setModalOpen(!modalOpen) }
                 >
                   Clique aqui!
@@ -61,7 +61,7 @@ function About() {
               </div>
             </FadeIn>
           </div>
-          <div className="col-span-12 lg:col-span-6 flex justify-center">
+          <div className="col-span-12 lg:col-span-6 flex justify-center items-center">
             <AsyncImage
               src={ profilePhoto }
               alt="Paulo Eduardo de Sordi Gomes"
