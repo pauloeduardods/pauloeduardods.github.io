@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7c63d08.css",
-    "main.js": "/static/js/main.954c8aae.js",
+    "main.css": "/static/css/main.7cdaffab.css",
+    "main.js": "/static/js/main.183e903b.js",
     "static/js/787.95dfc56e.chunk.js": "/static/js/787.95dfc56e.chunk.js",
-    "static/media/Recipes-app.png": "/static/media/Recipes-app.e9f4c8f9c283285f0390.png",
-    "static/media/TrybeTunes.png": "/static/media/TrybeTunes.7fa8752cdb55d5c3a163.png",
+    "static/media/Recipes-app.png": "/static/media/Recipes-app.c535a1c757ca1279c9bb.png",
+    "static/media/TrybeTunes.png": "/static/media/TrybeTunes.2b2844b010e397044632.png",
     "static/media/profilePhoto.png": "/static/media/profilePhoto.d5e2f4f2ca8dc7233cbe.png",
     "static/media/background-yellow-black.jpg": "/static/media/background-yellow-black.282c0520c26e8d357161.jpg",
+    "static/media/StarWars.png": "/static/media/StarWars.431c0ccb32ab238cfccc.png",
     "static/media/AWS.png": "/static/media/AWS.32eaaae9c85a46132ebb.png",
-    "static/media/OnlineStore.png": "/static/media/OnlineStore.bed1323883e5f6954818.png",
+    "static/media/OnlineStore.png": "/static/media/OnlineStore.9ac110ac1e0eda7eef3b.png",
     "static/media/p-logo.png": "/static/media/p-logo.17f23659857dd42bb60d.png",
-    "static/media/StarWars.png": "/static/media/StarWars.24e08b303aae29f7e250.png",
+    "static/media/Trivia.png": "/static/media/Trivia.866faf19706e703d774a.png",
+    "static/media/TrybeWallet.png": "/static/media/TrybeWallet.ac71eb8fc09b23fc1253.png",
     "static/media/CSS.png": "/static/media/CSS.daea87665c0cf72ae03d.png",
     "static/media/HTML.png": "/static/media/HTML.06625782e561074f5482.png",
-    "static/media/Trivia.png": "/static/media/Trivia.f39f0c2f896c2bed2e2a.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.1b9d418c4b4deb64917a.png",
-    "static/media/TrybeWallet.png": "/static/media/TrybeWallet.c12777771b013833f876.png",
     "static/media/github.svg": "/static/media/github.48cd6e6cbbd2cc55ca539ab647d53104.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.a711cb1748722f5a9d6192523f07f641.svg",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
-    "main.a7c63d08.css.map": "/static/css/main.a7c63d08.css.map",
-    "main.954c8aae.js.map": "/static/js/main.954c8aae.js.map",
+    "main.7cdaffab.css.map": "/static/css/main.7cdaffab.css.map",
+    "main.183e903b.js.map": "/static/js/main.183e903b.js.map",
     "787.95dfc56e.chunk.js.map": "/static/js/787.95dfc56e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c63d08.css",
-    "static/js/main.954c8aae.js"
+    "static/css/main.7cdaffab.css",
+    "static/js/main.183e903b.js"
   ]
 }
