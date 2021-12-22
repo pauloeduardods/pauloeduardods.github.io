@@ -15,7 +15,7 @@ function HeaderNavPanel() {
   return (
     <div
       className="rounded-lg shadow-md shadow-slate-700 ring-1 ring-white ring-opacity-5
-      bg-slate-800  divide-y-2 divide-slate-700"
+      bg-slate-800 divide-y-2 divide-slate-700 z-40"
     >
       <div className="pt-5 pb-6 px-5">
         <div className="flex items-center justify-between">

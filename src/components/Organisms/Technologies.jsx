@@ -35,7 +35,7 @@ function Technologies() {
                 key={ tech.name }
               >
                 <AsyncImage
-                  className="w-3/4 h-fit"
+                  className="w-3/4"
                   src={ tech.img }
                   alt={ tech.name }
                 />
@@ -44,14 +44,13 @@ function Technologies() {
           </Tab.List>
           <Tab.Panels
             className="mt-4 bg-slate-200 bg-opacity-20 rounded-2xl
-          h-[280px] sm:h-48 md:h-52 lg:h-48 overflow-y-auto"
+          h-[305px] xs:h-[235px] sm:h-48 md:h-52 lg:h-48 overflow-y-auto"
           >
             {techsList.map((tech) => (
               <Tab.Panel key={ tech.name }>
                 <div className="grid grid-cols-12 gap-5 p-6">
                   <div className="hidden md:block md:col-span-2 lg:col-span-1">
                     <AsyncImage
-                      className="h-fit"
                       src={ tech.img }
                       alt={ tech.name }
                     />
