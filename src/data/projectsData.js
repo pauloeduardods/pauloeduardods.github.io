@@ -1,10 +1,10 @@
 import techsList from './technologiesData';
-import RecipesAppImage from '../images/projects/Recipes-app.png';
-import TriviaImage from '../images/projects/Trivia.png';
-import TrybeWalletImage from '../images/projects/TrybeWallet.png';
-import StarWarsImage from '../images/projects/StarWars.png';
-import OnlineStoreImage from '../images/projects/OnlineStore.png';
-import TrybeTunesImage from '../images/projects/TrybeTunes.png';
+import RecipesAppImage from '../images/projects/Recipes-app.webp';
+import TriviaImage from '../images/projects/Trivia.webp';
+import TrybeWalletImage from '../images/projects/TrybeWallet.webp';
+import StarWarsImage from '../images/projects/StarWars.webp';
+import OnlineStoreImage from '../images/projects/OnlineStore.webp';
+import TrybeTunesImage from '../images/projects/TrybeTunes.webp';
 
 function getTechs(Array) { // JavaScript HTML CSS Bootstrap TailwindCSS React Redux Jest RTL Docker SQL AWS
   return Array.map((tech) => {
