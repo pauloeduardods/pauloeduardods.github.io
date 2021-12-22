@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ContainerWithBackground from '../Molecules/ContainerWithBackground';
 
-function Footer() {
+function Footer(props) {
+  const { style, className } = props;
   return (
-    <footer>
+    <footer style={ style } className={ className }>
       <ContainerWithBackground id="footer">
         <div className="flex md:justify-between relative flex-col md:flex-row">
           <div
@@ -57,5 +59,15 @@ function Footer() {
     </footer>
   );
 }
+
+Footer.propTypes = {
+  className: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.any),
+};
+
+Footer.defaultProps = {
+  className: '',
+  style: {},
+};
 
 export default Footer;
