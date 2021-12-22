@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import ReactGa from 'react-ga';
-import Header from './components/Organisms/Header';
-import Footer from './components/Organisms/Footer';
 import Config from './Config';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 import './App.css';
 
 function App() {
@@ -16,14 +15,10 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={ Home } />
-        <Route component={ () => (<div>Not found</div>) } />
-      </Switch>
-      <Footer />
-    </>
+    <Switch>
+      <Route exact path="/" component={ Home } />
+      <Route component={ NotFound } />
+    </Switch>
   );
 }
 
