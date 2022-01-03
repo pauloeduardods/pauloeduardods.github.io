@@ -69,4 +69,27 @@ const SeeProjectButton = tw.a`
   origin-right
 `;
 
-export { MoreButton, CarouselButton, SeeProjectButton };
+const ResumeDownload = tw.a`
+  group
+  relative
+  w-full
+  xs:w-[70px]
+  h-[35px]
+  flex
+  justify-center
+  items-center
+  border
+  border-transparent
+  text-sm
+  font-bold
+  rounded-md
+  text-white
+  bg-rose-600
+  hover:bg-rose-700
+  focus:outline-none
+  focus:ring-2
+  focus:ring-offset-2
+  origin-right
+`;
+
+export { MoreButton, CarouselButton, SeeProjectButton, ResumeDownload };
