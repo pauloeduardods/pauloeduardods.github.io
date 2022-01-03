@@ -4,6 +4,8 @@ import { Popover, Transition } from '@headlessui/react';
 import { TextWhite, TextDescription } from '../Atoms/Texts';
 import { ContactIcons } from '../Atoms/Icons';
 import { contacts } from '../../data/contactData';
+import { resumeLink, PDF, Word } from '../../data/resume/resumeData';
+import { ResumeDownload } from '../Atoms/Buttons';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -80,6 +82,31 @@ function HeaderNav() {
                         </div>
                       </a>
                     ))}
+                  </div>
+                  <div
+                    className="px-5 py-5 bg-slate-800 space-y-6 sm:flex sm:space-y-0
+                    sm:space-x-10 sm:px-8 border-t border-slate-600 items-center"
+                  >
+                    <TextWhite>Currículo</TextWhite>
+                    <ResumeDownload
+                      href={ PDF }
+                      target="_blank"
+                      rel="noreferrer"
+                      download
+                    >
+                      PDF
+                    </ResumeDownload>
+                    <ResumeDownload
+                      href={ Word }
+                      target="_blank"
+                      rel="noreferrer"
+                      download
+                    >
+                      Word
+                    </ResumeDownload>
+                    <ResumeDownload href={ resumeLink } target="_blank" rel="noreferrer">
+                      Online
+                    </ResumeDownload>
                   </div>
                 </div>
               </Popover.Panel>
