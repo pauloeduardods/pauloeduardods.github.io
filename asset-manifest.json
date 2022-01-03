@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8083c9fc.css",
-    "main.js": "/static/js/main.16489b1a.js",
+    "main.css": "/static/css/main.4adfcfbf.css",
+    "main.js": "/static/js/main.7c890c43.js",
     "static/js/787.95dfc56e.chunk.js": "/static/js/787.95dfc56e.chunk.js",
+    "static/media/CurrículoPauloEduardo.docx": "/static/media/CurrículoPauloEduardo.cea98b092b0e313aea8a.docx",
+    "static/media/CurrículoPauloEduardo.pdf": "/static/media/CurrículoPauloEduardo.a312cb76ea9e4a220f03.pdf",
     "static/media/Recipes-app.webp": "/static/media/Recipes-app.f8cc04bc06878cc49608.webp",
     "static/media/profilePhoto.webp": "/static/media/profilePhoto.5747ce4f4380bfe95fd7.webp",
     "static/media/TrybeTunes.webp": "/static/media/TrybeTunes.70066fbf666f6cf633a4.webp",
@@ -24,12 +26,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.a711cb1748722f5a9d6192523f07f641.svg",
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
-    "main.8083c9fc.css.map": "/static/css/main.8083c9fc.css.map",
-    "main.16489b1a.js.map": "/static/js/main.16489b1a.js.map",
+    "main.4adfcfbf.css.map": "/static/css/main.4adfcfbf.css.map",
+    "main.7c890c43.js.map": "/static/js/main.7c890c43.js.map",
     "787.95dfc56e.chunk.js.map": "/static/js/787.95dfc56e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8083c9fc.css",
-    "static/js/main.16489b1a.js"
+    "static/css/main.4adfcfbf.css",
+    "static/js/main.7c890c43.js"
   ]
 }
