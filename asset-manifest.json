@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4adfcfbf.css",
-    "main.js": "/static/js/main.fe6902de.js",
+    "main.js": "/static/js/main.fd396e95.js",
     "static/js/787.95dfc56e.chunk.js": "/static/js/787.95dfc56e.chunk.js",
-    "static/media/CurrículoPauloEduardo.docx": "/static/media/CurrículoPauloEduardo.9295ec0c0cadbe3e57b5.docx",
-    "static/media/CurrículoPauloEduardo.pdf": "/static/media/CurrículoPauloEduardo.0cbb6ec32b8a6e807a93.pdf",
+    "static/media/CurrículoPauloEduardo.docx": "/static/media/CurrículoPauloEduardo.bfd704fd3a1cf7120849.docx",
+    "static/media/CurrículoPauloEduardo.pdf": "/static/media/CurrículoPauloEduardo.db5645444fe1b345654c.pdf",
     "static/media/Recipes-app.webp": "/static/media/Recipes-app.f8cc04bc06878cc49608.webp",
     "static/media/profilePhoto.webp": "/static/media/profilePhoto.5747ce4f4380bfe95fd7.webp",
     "static/media/TrybeTunes.webp": "/static/media/TrybeTunes.70066fbf666f6cf633a4.webp",
@@ -27,11 +27,11 @@
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.68603ef4173093c409dcd59733df7ecf.svg",
     "index.html": "/index.html",
     "main.4adfcfbf.css.map": "/static/css/main.4adfcfbf.css.map",
-    "main.fe6902de.js.map": "/static/js/main.fe6902de.js.map",
+    "main.fd396e95.js.map": "/static/js/main.fd396e95.js.map",
     "787.95dfc56e.chunk.js.map": "/static/js/787.95dfc56e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4adfcfbf.css",
-    "static/js/main.fe6902de.js"
+    "static/js/main.fd396e95.js"
   ]
 }
