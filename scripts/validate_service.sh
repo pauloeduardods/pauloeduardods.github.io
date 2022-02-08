@@ -5,7 +5,7 @@ docker image prune -af
 
 echo "Checking if application is running"
 
-if [ "$( docker container inspect -f '{{.State.Status}}' pauloeduardods-front-end-1 )" == "running" ];
+if [ "$( docker container inspect -f '{{.State.Status}}' pauloeduardods_front-end_1 )" == "running" ];
 then
   echo "Container is running"
   exit 0
